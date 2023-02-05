@@ -1,0 +1,236 @@
+header {
+    background-color: black;
+    height: 80px;
+     box-shadow: 0 -2px 10px 0 brown;
+     position: fixed;
+     width: 100%;
+}
+header nav img {
+    height: 22%;
+    width: 20%;
+}
+header nav{
+    display: flex;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+
+}
+header nav ul li{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+header nav ul li a:hover{
+    color: brown;
+
+}
+header nav ul li a{
+    color:white;
+}
+body main img{
+    width: 100%;
+    height: 1000px;
+}
+
+
+main h1{
+    text-align: center;
+    color: rgb(130, 9, 9);
+}
+body main #div2 img{
+    margin-bottom: 100px;
+    margin-top: -55px;
+    height: 60px;
+    width: 160px;
+    margin-left: -22px;
+}
+#div2 img {animation-timing-function: ease;}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100%;}
+}
+ #div2 img{
+    width: 125px;
+    position: absolute;
+    top: 1025px;
+    animation: mymove 5s infinite;
+}
+main h3{
+    background-color: #CAE7D8;
+    justify-content: center;
+    
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: #453c41;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.items {
+    background-color: #CAE7D8;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+.items p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+main .items p strong{
+    color: green;
+}
+main .items video{
+    margin-left: 510px;
+    margin-top: 20px;
+    border-radius: 20%;
+}
+main main {
+    background-color:bisque;
+    margin:0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px gray; 
+    width: 1500px; 
+    margin-top: 300px;  
+    height: 3885px;
+    background-image: none;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin: 2px;
+    padding: 2px;
+}
+.item > img{
+    width: 30px;
+    height: 30px;
+
+}
+.i{
+    color: yellow;
+}
+button{
+    border: none;
+    background-color: rgba(213, 196, 196, 0);
+    outline: none;
+}
+button > img{
+    width: 50px;
+    height: 15px;
+}
+.quantity > input{
+    width: 20px;
+    background-color:rgba(255, 255, 0, 0);
+    border: none;
+    
+}
+.like img{
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.minus-btn img{
+    height: 20px;
+    width: 20px;
+    margin-left: 300px;
+    margin-right: 0;
+}
+.plus-btn img{
+    height: 20px;
+    width: 20px;
+    margin-right: 400px;
+}
+.Quant{
+    background-color:rgba(102, 51, 153, 0);
+    border: none;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    outline: none;
+   
+}
+.price{
+    margin-top: 20px;
+    margin-right: 30px;
+    color: brown;
+}
+.delete{
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.description{
+    font-size: 20px;
+    margin-top: 0.0001px;
+    margin-bottom: 10px;
+    color: rgb(35, 34, 34);
+}
+.fekra{
+    font-size: 12px;
+    margin-top: 0.00001px;
+    margin-bottom: 10px;
+
+}
+.opo{
+    margin-top: 3px;
+    margin-right: 1px;
+    margin-left: 1px;
+    background-color: palevioletred;
+    border-radius: 20px;
+}
+.fartatou{
+    font-size: 40px;
+    
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-color: brown;
+
+}
+.fartatou h1{
+    color: brown;
+    margin-top: 60px;
+    margin-bottom: 0.1px;
+}
+.totale-price p{
+    color: brown;
+    margin-left: 850px;
+    font-size: 35px;
+
+}
+.totale-price input{
+    margin-left: 48.5%;
+    font-size: 25px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    color: brown;
+}
+main h1{
+    color: brown;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

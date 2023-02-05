@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+    
+
+
+    color: rgb(255, 255, 255);
+}
+header {
+    background-color: rgb(16, 15, 15);
+    height: 80px;
+    box-shadow: 0 -2px 10px 0 brown;
+    position: fixed;
+    width: 100%;
+}
+
+header nav img {
+    height: 22%;
+    width: 20%;
+}
+header nav{
+    display: flex;
+    width: 80%;
+    background-color: rgb(16, 15, 15);
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+header nav ul li{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+header nav ul li a:hover{
+    color: brown;
+    
+}
+nav img{
+    width: 100%;  
+}
+nav div img{
+    width: 125px;
+    position: absolute;
+    top: 395px;
+    animation: mymove 5s infinite;
+
+    
+}
+#div1 {animation-timing-function: ease;}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100%;}
+}
+nav h1{
+    color: brown;
+    font-size: 40px; 
+    margin-left: 670px;
+    margin-top: 30px;
+    text-decoration:overline;
+}
+main{
+    width: 80%;
+    height: 700px;
+    background-image: url(/img/9889b417b3272ad17f0ab126bc43c6d2.gif);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+main p {
+    margin-top: 60px;
+}
+.parag{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+p{
+    font-size: 1.5rem;
+}
+.parag p{
+    width: 45%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+main video{
+    width: 450px;
+    height: 450px;
+    margin-left: 590px;
+    border-radius: 7%;
+    box-shadow: 200px;
+    margin-bottom: 100px;
+    margin-top: 1px;
+    padding: 0px;
+    
+}
+main main {
+    background-color:bisque;
+    margin:0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px gray; 
+    width: 1500px; 
+    margin-top: 300px;  
+    height: 3885px;
+    background-image: none;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin: 2px;
+    padding: 2px;
+}
+.item > img{
+    width: 30px;
+    height: 30px;
+
+}
+.i{
+    color: yellow;
+}
+button{
+    border: none;
+    background-color: rgba(213, 196, 196, 0);
+    outline: none;
+}
+button > img{
+    width: 50px;
+    height: 15px;
+}
+.quantity > input{
+    width: 20px;
+    background-color:rgba(255, 255, 0, 0);
+    border: none;
+    
+}
+.like img{
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.minus-btn img{
+    height: 20px;
+    width: 20px;
+    margin-left: 300px;
+    margin-right: 0;
+}
+.plus-btn img{
+    height: 20px;
+    width: 20px;
+    margin-right: 400px;
+}
+.Quant{
+    background-color:rgba(102, 51, 153, 0);
+    border: none;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    outline: none;
+   
+}
+.price{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.delete{
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.description{
+    font-size: 20px;
+    margin-top: 0.0001px;
+    margin-bottom: 10px;
+    color: rgb(35, 34, 34);
+}
+.fekra{
+    font-size: 12px;
+    margin-top: 0.00001px;
+    margin-bottom: 10px;
+}
+.opo{
+    margin-top: 3px;
+    margin-right: 1px;
+    margin-left: 1px;
+    background-color: palevioletred;
+    border-radius: 20px;
+}
+.fartatou{
+    font-size: 40px;
+    
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-color: brown;
+
+}
+.fartatou h1{
+    color: brown;
+    margin-top: 60px;
+    margin-bottom: 0.1px;
+}
+main main .totale-price p {
+    font-size: 35px;
+    margin: 0 auto;
+    color: rgb(136, 92, 35);
+    text-align: center;
+}
+main main .totale-price input{
+    margin-left: 39.5%;
+    font-size: 25px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0);
+    outline: none;
+}
